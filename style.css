@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(165, 93, 232);
+}
+.fir{
+    border: 1px solid darkcyan;
+    width: 30%;
+    height: 30rem;
+    margin: 2rem 0 0 35%;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 8px black;
+}
+.cpod{
+    width: 23rem;
+    height: 18rem;
+    border-radius: 2rem;
+}
+h1{
+    color:rgb(3, 33, 87);
+    text-align: center;
+}
+h1 :hover{
+    color: black;
+}
+.web{
+    margin-left: 8.5rem;
+}
+.us{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.us:hover {
+    color: rgb(151, 244, 58);
+    text-shadow: 4px 2px 8px rgb(179, 110, 247);
+}
+button{
+    margin: 3rem 0 0 9rem;
+    background: transparent;
+    border:  rgb(165, 93, 232);
+    color: rgb(108, 32, 4);
+}
+button:hover {
+    background-color: rgb(184, 246, 246);
+}
+@media (max-width:360px) {
+.fir{
+   border: 1px solid darkcyan;
+    width: 80%;
+    height: 30rem;
+    margin: 2rem 0 0 10%;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 8px black; 
+}
+.cpod{
+    width: 14.3rem;
+}
+.us{
+    padding: 4px 2px 2px 4px;
+    justify-items: center;
+    margin: 4rem 0 0 2rem;
+}
+.ag{
+    margin-left: 1rem;
+}
+.web{
+    margin-left: 4rem;
+}
+button{
+    margin: 2rem 0 0 4rem;
+}
+}
+@media (max-width:400px) {
+   .fir{
+    margin: 4rem 0 0 2rem;
+    width: 80%;
+   } 
+   .cpod{
+    width: 15.9rem;
+}
+.us{
+    padding: 4px 2px 2px 4px;
+    justify-items: center;
+    margin: 4rem 0 0 3rem;
+}
+.ag{
+    margin-left: 2rem;
+}
+.web{
+    margin-left: 5rem;
+}
+button{
+    margin: 2rem 0 0 5.2rem;
+}
+}
